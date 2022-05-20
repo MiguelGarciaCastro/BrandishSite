@@ -5,10 +5,11 @@ body {
 }
 
 img{
-    width: 900px;
+    width: 1000px;
     height: 1000px;
     display: block;
-   margin-left: -35%;
+   margin-left: -32%;
+   display: block;
     
 }
 /* h1 {
@@ -71,7 +72,7 @@ h3 {
     display: table;
   }
 
-  .pic {
+ .pic {
       width: 60px;
       height: 60px;
       display: inline;
@@ -82,10 +83,18 @@ h3 {
      height: 20%;
   }
 
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:600px) {
     /* For mobile phones: */
      h2, a, ul, li, div.text, h3{
       width: 100%;
-      margin: 0 auto;
+      margin-right: auto;
     }
   }
+  @media only screen and  (max-width: 600px) {
+      img{
+          display: block;
+        
+      }
+
+  }
+      
