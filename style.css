@@ -83,7 +83,14 @@ h3 {
      height: 20%;
   }
 
-  @media only screen and (max-width:600px) {
+
+@media only screen and (max-width: 400px)  {
+    body{
+        margin-left: 10%;
+    }
+}
+
+  @media only screen and (max-width:400px) {
     /* For mobile phones: */
      h2, a, ul, li, div.text, h3{
       width: 100%;
@@ -93,7 +100,9 @@ h3 {
   @media only screen and  (max-width: 600px) {
       img{
           display: block;
-        
+          margin-left: -20%;
+          /* margin-right: auto;
+         */
       }
 
   }
