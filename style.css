@@ -35,7 +35,7 @@ ul {
 
 li {
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     line-height: 200%;
@@ -50,7 +50,7 @@ div.text {
 h3 {
     font-weight: normal;
     line-height: 200%;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -62,7 +62,7 @@ h3 {
     float: left;
     width: 15%;
     padding: 0px;
-    margin-left: 0%;
+    margin-left: 5%;
 }
 
 .row::after {
