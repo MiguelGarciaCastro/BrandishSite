@@ -86,5 +86,6 @@ h3 {
     /* For mobile phones: */
      h2, a, ul, li, div.text, h3{
       width: 100%;
+      margin: 0 auto;
     }
   }
