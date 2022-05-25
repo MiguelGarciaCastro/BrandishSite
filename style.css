@@ -96,21 +96,43 @@ h3 {
           
       }
   } */
-  @media (min-width: 400px) and (max-width: 600px) {
+  @media (min-width: 400px) {
      img{
           display: block;
-         width:670px;
+          margin-left: -33%;
+         /* width:670px;
          height: 700px;
-         
+          */
 
       }
   }
+
+  @media (max-width: 1368px) {
+    img{
+         display: block;
+        /* width:670px;
+        height: 700px;
+         */
+
+     }
+ }
+
 
   @media (min-width: 400px) and (max-width: 600px) {
     h3{
         
          text-align: left;
          font-size: 16px;
+        
+
+     }
+ }
+
+ @media (min-width: 400px) and (max-width: 600px) {
+    li{
+        
+         text-align: left;
+         font-size: 14px;
         
 
      }
