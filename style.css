@@ -1,14 +1,16 @@
 body {
     background-image: url(./images/shutterstock_1029816886.jpg);
+    background-size: 300px;
     max-width: 600px;
     margin: auto;
+
 }
 
 img{
     width: 1000px;
     height: 1000px;
     display: block;
-   margin-left: -32%;
+   margin-left: -33%;
    display: block;
     
 }
@@ -49,10 +51,11 @@ div.text {
 }
 
 h3 {
-    font-weight: normal;
+    font-weight: lighter;
     line-height: 200%;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    margin-left: -5px;
 }
 
 * {
@@ -81,27 +84,36 @@ h3 {
 
   hr {
      height: 20%;
+     margin-top: 4%;
+     margin-bottom: 4%;
   }
 
 
-@media only screen and (max-width: 400px)  {
+  @media (min-width: 768px) and (max-width: 992px){
+      body {
+          
+      }
+  }
+  @media (min-width: 480px) and (max-width: 767px) {...}
+
+/* @media only screen and (min-width:400px) (max-width: 600px)  {
     body{
         margin-left: 10%;
     }
-}
+} */
 
   @media only screen and (max-width:400px) {
     /* For mobile phones: */
      h2, a, ul, li, div.text, h3{
       width: 100%;
-      margin-right: auto;
+      margin-right: 20%;
     }
   }
   @media only screen and  (max-width: 400px) {
       img{
           width: 600px;
           display: block;
-          margin-left: -20%;
+          margin-left: -40%;
           /* margin-right: auto;
          */
       }
