@@ -1,7 +1,7 @@
 body {
     background-image: url(./images/shutterstock_1029816886.jpg);
     background-size: 300px;
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 
 }
@@ -10,8 +10,7 @@ img{
     width: 1000px;
     height: 1000px;
     display: block;
-   margin-left: -33%;
-   display: block;
+   margin-left: -45%;
     
 }
 /* h1 {
@@ -96,7 +95,7 @@ h3 {
           
       }
   } */
-  @media (min-width: 400px) {
+  /* @media (min-width: 400px) {
      img{
           display: block;
           margin-left: -33%;
@@ -104,21 +103,21 @@ h3 {
          height: 700px;
           */
 
-      }
-  }
+      /* }
+  } */
 
-  @media (max-width: 1368px) {
+  /* @media (max-width: 1368px) {
     img{
-         display: block;
+         display: block; */
         /* width:670px;
         height: 700px;
          */
 
-     }
- }
+     /* }
+ } */
 
 
-  @media (min-width: 400px) and (max-width: 600px) {
+  /* @media (min-width: 400px) and (max-width: 600px) {
     h3{
         
          text-align: left;
@@ -136,7 +135,7 @@ h3 {
         
 
      }
- }
+ } */
 
 /* @media only screen and (min-width:400px) (max-width: 600px)  {
     body{
